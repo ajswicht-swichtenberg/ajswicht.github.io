@@ -76,6 +76,28 @@ main a:hover {
     list-style-type: none;
     padding: 0;
 }
+table {
+    border: 2px solid #6c6669;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+th {
+    padding: 15px;
+    border: 2px solid #6c6669;
+    font-size: 15px;
+    color: #FFC627;
+}
+td {
+    padding: 10px;
+    border: 2px solid #6c6669;
+    text-align: center;
+    font-size: 12px;
+}
+tr:nth-of-type(even) {
+    background-color: #f8eeee;
+}
 footer {
     background-color: #802244;
     color: #fbfbf6;
@@ -105,4 +127,8 @@ h4 {
 }
 h5 {
     font-size: 15px; 
+}
+h6 {
+    font-size: 15px;
+    color: #FFC627;
 }
